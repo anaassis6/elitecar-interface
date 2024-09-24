@@ -1,0 +1,44 @@
+.total{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda-index{
+    width:50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.direita-index{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90vh;
+    justify-content: space-around;
+}
+
+.img{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-index{
+    height: 50%;
+    font-size: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.carros{
+    width: 600px;
+}
